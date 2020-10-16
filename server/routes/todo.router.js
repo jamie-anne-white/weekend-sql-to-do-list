@@ -1,25 +1,17 @@
-// Require express
 const express = require('express');
-const app = express();
-// Require body-parser
-const bodyParser = require('body-parser');
+const router = express.Router();
 
-// Route to DB
-const todoRouter = require('./routes/todo.router')
-
-const PORT = 5000;
+// DB CONNECTION
+const pool = require('../modules/pool');
 
 
-// Static files
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static('server/public'));
-
-//ROUTES
-app.use('/todo', todoRouter)
+// GET
 
 
+// POST
 
-// Start up on the server
-app.listen(PORT, () => {
-  console.log('listening on PORT', PORT);
-});
+
+// DELETE
+
+
+module.exports = router;

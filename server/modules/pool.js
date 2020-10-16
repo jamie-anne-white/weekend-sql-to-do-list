@@ -1,21 +1,23 @@
 const pg = require('pg');
 
-const config = {
-  database: 'weekend-to-do-app', 
-  host: 'localhost', 
-  port: 5432, 
-  max: 10, 
-  idleTimeoutMillis: 30000 
-};
-
-const pool = new pg.Pool(config);
-
-pool.on("connect", () => {
-  console.log("connected to postgres");
+// setup pg to connect with the database
+const Pool = pg.Pool;
+const pool = new Pool({
+    database: 'weekend-to-do-app',          // name of db
+    host: 'localhost',          // where is the database
+    port: 5432,                 // port for db, 5432 is standard for postgres
+    max: 10,                    // max connections (queries) at one time
+    idleTimeoutMillis: 10000    // seconds to try to connect, then cancel
 });
 
-pool.on("error", (err) => {
-  console.log("error connecting to postgres", err);
+pool.on('connect', () => {
+    console.log('Postgresql connected');
+    
+});
+
+pool.on('error', (error) => {
+    console.log('error with Postgresql pool', error);
+    
 });
 
 module.exports = pool;
