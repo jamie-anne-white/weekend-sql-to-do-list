@@ -10,8 +10,33 @@
   <link rel="stylesheet" href="./styles/style.css">
 
 </head>
-<h1>TO DO LIST</h1>
 <body>
-  
+<h1>TO DO LIST</h1>
+<section id="add-task">
+  <h2>Tasks to Do!</h2>
+  <h3></h3>
+  <input type="text" id="task-name-in" value="" placeholder="Task Name">
+  <input type="text" id="task-type-in" value="" placeholder="Task Type">
+  <input type="text" id="task-due-in" value="" placeholder="Task Due Date">
+  <button type="button" id="add-task-button"> Let's do it!</button>
+</section>
+<section>
+  <table>
+      <thead>
+        <tr>
+          <th>Task Name</th>
+          <th>Task Type</th>
+          <th>Due Date</th>
+          <th>Completed!</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="view-todo">
+      </tbody>
+    </table>
+
+</section>
+
 </body>
+
 </html>

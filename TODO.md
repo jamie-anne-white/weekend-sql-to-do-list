@@ -25,29 +25,31 @@ MAKE BASE FILES
 
 
 LINK/ROUTE BASE FILES
-    [] test js and jquery
+    [x] test js and jquery
     [x] npm install
     [x] npm install express
         [x]     "start": "node server/server.js"
     [x] npm install body-parser
     [x] npm install pg 
-        [] LINK ALL FILES TO THE ABOVE
+        [x] LINK ALL FILES TO THE ABOVE
 
 
 [] HTML
-        [] input for tasks
-            [] input fields with 
-                [] task name
-                [] task type 
-                [] due date
-        [] table to display data for 
-                [] task name
-                [] task type 
-                [] due date
-                [] completed column 
-                [] delete button
-                [] complete button  
-        [] delete button for all data in the row
+        [x] input for tasks
+            [x] input fields with 
+                [x] task name
+                [x] task type 
+                [x] due date
+            [x] submit button
+        [x] table to display data for 
+                [x] task name
+                [x] task type 
+                [x] due date
+                [x] completed column 
+                [x] delete column
+                    [] BUTTONS WILL BE FROM JQUERY
+                        [] delete button for all data in the row
+                        [] completed button for all data in the row 
 
 
 ROUTES !! DO ONE AT A TIME AND TEST
