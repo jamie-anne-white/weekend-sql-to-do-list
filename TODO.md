@@ -68,6 +68,9 @@ ROUTES !! DO ONE AT A TIME AND TEST
 
 CLIENT JS
     [] click listeners
+        [x] submit
+        [] delete
+        [] completed
         [] GET
             [] append to the DOM/AJAX
         [] POST
