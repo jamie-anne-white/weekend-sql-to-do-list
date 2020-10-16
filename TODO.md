@@ -5,31 +5,32 @@ SET UP DATABASE
         
 
 MAKE BASE FILES
-    [] server
-        [] modules
-            [] pool.js
-        [] public
-            [] scripts
-                [] client.js
-            [] vendors
-                [] jquery
-            [] index.html (NO FOLDER)
-        [] routes
-            [] todo_router
-        [] styles
-            [] style.css
-        [] server.js
-    [].gitignore
-    [] database.sql
+    [x] server
+        [x] modules
+            [x] pool.js
+        [x] public
+            [x] scripts
+                [x] client.js
+            [x] vendors
+                [x] jquery
+            [x] index.html (NO FOLDER)
+        [x] routes
+            [x] todo_router
+        [x] styles
+            [x] style.css
+        [x] server.js
+    [x].gitignore
+    [x] database.sql
         [] MAKE SURE THINGS MATCH!
 
 
 LINK/ROUTE BASE FILES
     [] test js and jquery
-    [] npm install
-    [] npm install express
-    [] npm install body-parser
-    [] npm install pg 
+    [x] npm install
+    [x] npm install express
+        [x]     "start": "node server/server.js"
+    [x] npm install body-parser
+    [x] npm install pg 
         [] LINK ALL FILES TO THE ABOVE
 
 
