@@ -1,7 +1,7 @@
 SET UP DATABASE
-    [] name properly
-    [] create a table 
-        [] try some dummy data
+    [x] name properly
+    [x] create a table 
+        [x] try some dummy data
         
 
 MAKE BASE FILES
@@ -44,8 +44,9 @@ LINK/ROUTE BASE FILES
                 [] task name
                 [] task type 
                 [] due date
-                [] complete column 
-                [] delete 
+                [] completed column 
+                [] delete button
+                [] complete button  
         [] delete button for all data in the row
 
 
