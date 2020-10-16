@@ -21,7 +21,7 @@ MAKE BASE FILES
         [x] server.js
     [x].gitignore
     [x] database.sql
-        [] MAKE SURE THINGS MATCH!
+        [x] MAKE SURE THINGS MATCH!
 
 
 LINK/ROUTE BASE FILES
